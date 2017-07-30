@@ -1,0 +1,34 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="测试">
+        </android.support.v7.widget.Toolbar>
+        <android.support.design.widget.TabLayout
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:id="@+id/tablayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@color/material_deep_teal_200"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/colorPrimary_pink"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/colorPrimary_pinkDark"
+            app:tabTextColor="@color/colorPrimaryDark" ></android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</android.support.design.widget.CoordinatorLayout>
