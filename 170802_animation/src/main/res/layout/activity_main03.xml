@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/icon_2"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f00"
+            android:onClick="startFirstAnimation"
+            android:text="显示" />
+    </LinearLayout>
+    <ImageView
+        android:clickable="true"
+        android:scaleType="fitEnd"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:onClick="startSecondAnimation"
+        android:id="@+id/second"
+        android:src="@drawable/icon_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

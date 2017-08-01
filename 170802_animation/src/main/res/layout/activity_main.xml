@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="@string/hello_world" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/hello_world" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:text="@string/hello_world" />
+
+</LinearLayout>
