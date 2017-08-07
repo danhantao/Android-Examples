@@ -1,0 +1,13 @@
+<html>
+<script type="text/javascript">
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
+    function javaCallJsHasParamsMethod(params){
+     console.log("Java调用Js方法，有参数:"+params);
+    }
+</script>
+<body>
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')"/>
+</body>
+</html>
