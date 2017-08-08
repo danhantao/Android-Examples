@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pheth.android.a170809_toucheventconflict.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/sv"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        </ListView>
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+        <TextView
+            android:text="测试"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</com.pheth.android.a170809_toucheventconflict.MyScrollView>
