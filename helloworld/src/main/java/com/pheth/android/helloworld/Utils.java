@@ -25,4 +25,6 @@ public class Utils {
         // Nexus 5 1776x1080
         return displayMetrics != null && displayMetrics.heightPixels >= 1280 && displayMetrics.widthPixels >= 720;
     }
+
+
 }

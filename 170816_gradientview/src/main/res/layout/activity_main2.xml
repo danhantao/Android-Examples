@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical">
+    <com.pheth.android.a170816_gradientview.LinearGradientTextView
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/tertiary_text_light"
+        android:text="hello world!Hello World!hello world!hello world"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
